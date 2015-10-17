@@ -31,6 +31,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/syntastic'
+Plugin 'shawncplus/phpcomplete.vim'
 Plugin 'spf13/PIV'
 Plugin 'hallison/vim-markdown'
 
