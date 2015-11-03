@@ -32,7 +32,6 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/syntastic'
 Plugin 'shawncplus/phpcomplete.vim'
-Plugin 'spf13/PIV'
 Plugin 'hallison/vim-markdown'
 
 " All of your Plugins must be added before the following line
@@ -80,6 +79,3 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-
-" spf13/PIV
-let g:DisableAutoPHPFolding = 1
