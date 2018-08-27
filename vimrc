@@ -30,7 +30,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-surround'
-Plugin 'vim-syntastic/syntastic'
+Plugin 'w0rp/ale'
 Plugin 'shawncplus/phpcomplete.vim'
 Plugin 'hallison/vim-markdown'
 Plugin 'ervandew/supertab'
@@ -70,18 +70,6 @@ set hlsearch
 " Solarized colors
 set background=dark
 colorscheme solarized
-
-" Syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_html_tidy_exec = 'tidy5'
-let g:syntastic_python_python_exec = '/usr/bin/python3'
 
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
